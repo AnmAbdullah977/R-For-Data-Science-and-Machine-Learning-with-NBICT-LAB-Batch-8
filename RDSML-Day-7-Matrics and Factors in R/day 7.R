@@ -32,3 +32,5 @@ male = c(TRUE, FALSE, FALSE, TRUE, FALSE)
 
 stu_data = data.frame(student_names, study_hours, marks, male)
 summary(stu_data)
+
+mean(stu_data$study_hours)
